@@ -28,7 +28,7 @@ print("-------------------------")
 print(f"Total Votes: {total_votes}")
 print("-------------------------")
 for candidate, percentage, votes in results:
-    print(f"{candidate}: {percentage:.3f}% ({votes})")
+    print(f"{candidate}: {percentage:.3f}% ({votes} votes)")
 print("-------------------------")
 print(f"Winner: {winner[0]}")
 print("-------------------------")
