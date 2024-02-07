@@ -50,6 +50,8 @@ with open('Resources/budget_data.csv', 'r') as file:
     greatest_increase_formatted = "${:,.2f}".format(greatest_increase)
     greatest_decrease_formatted = "${:,.2f}".format(greatest_decrease)
     
+    print("Financial Analysis")
+    print("-------------------------")
     print("Total # of Months:", total_months)
     print("Total Profit/Loss:", total_profit_loss_formatted)
     print("Average Change:", average_change_formatted)
